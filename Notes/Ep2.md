@@ -16,7 +16,7 @@ var square4 = square(4);
 ```
 Now first, for this entire code a <strong>Global</strong> execution context is created.
 
-### In the first phase
+### In the first phase (memory creation)
 - Memory is allocated to variables and functions.
 - For variable name(which is key) it assigns a value of <strong>undefined</strong>
 - For the function name(which is key) it assigns the entire function code as value.
