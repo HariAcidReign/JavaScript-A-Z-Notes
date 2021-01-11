@@ -37,6 +37,6 @@ Outputs:
 - For local EC, a totally different x variable assigned undefined(x inside a()) in phase 1 , and in phase 2 it is assigned 10 and printed in console log. After printing, no more
 commands to run, so a() local EC is removed from both GEC and from Call stack
 > Call Stack: GEC
-- Cursor goes back to a() fun call and the down 1 line to b(). Same steps repeat.
+- Cursor goes back to b() function call. Same steps repeat.
 > Call Stack :[GEC, b()] -> GEC (after printing yet another totally different x value as 100 in console log)
 - Finally GEC is deleted and also removed from call stack. Program ends.
