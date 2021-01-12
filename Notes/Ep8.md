@@ -105,7 +105,8 @@ The Errors that occurs if no reference is available for access. Can occur when t
 * Try using const wherever possible.
 * If not, use let.
 * Avoid var.
-* Declare all variables with let at the top to avoid errors to shrink temporal dead zone to zero.
+* Declare and initialize all variables with let to the top to avoid errors to shrink temporal dead zone window to zero.
 
+PS: If in any interview when asked "Are let and const hoisted?" explain fully about temporal deadzone and all the above concepts too
 
 
