@@ -9,3 +9,5 @@ If you have notes of your own, and are interested in contributing to this repo, 
 
 ## 📝 Resource Used 
 Namaste 🙏 JavaScript course by the legendary Akshay Saini
+
+[Javascript ONLY notes by Soham Shah (sometimes :P)](https://github.com/sohamsshah/JavaScriptONLY)
