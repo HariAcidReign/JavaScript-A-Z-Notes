@@ -63,7 +63,7 @@ counter1.decrementCounter();
 ### Disadvantages of closure
 - Overconsumption of memory when using closure as everytime as those closed over variables are not garbage collected till program expires.
 So when creating many closures, more memory is accumulated and this can create memory leaks if not handled.
-- **Garbage collector : **Program in JS engine or browser that frees up unused memory. In highlevel languages like C++ or JAVA, garbage collection is left to the 
+- **Garbage collector** : Program in JS engine or browser that frees up unused memory. In highlevel languages like C++ or JAVA, garbage collection is left to the 
 programmer, but in JS engine its done implicitly.
 
 ```
