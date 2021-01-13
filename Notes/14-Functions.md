@@ -83,5 +83,5 @@ var b = function(param1) {
 console.log(b()); //we log the entire fun within b. 
 
 ```
-#### Arrow Functions (latest in ES6 (ECMAScript 2015)
+#### Arrow Functions (latest in ES6 (ECMAScript 2015) -> coming in future lecture
 
