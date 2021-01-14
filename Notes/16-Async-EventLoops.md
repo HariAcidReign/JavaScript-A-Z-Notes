@@ -36,7 +36,7 @@ console.log("End"); // calls console api and logs in console window. After this 
 
 ### Event Loops and Callback Queue
 - cb() cannot simply directly go to callstack to be execeuted. It goes through the callback queue when timer expires. 
-- Event loop checks the callback queue, and if it has element puts it into call stack. It is a *gate keeper*
+- Event loop checks the callback queue, and if it has element puts it into call stack. It is a *gate keeper*. 
 - Now cb() in callstack is run. Console API is used and log printed
 
 Final console output:
@@ -102,11 +102,12 @@ Callback Queue to enter Call Stack.
 
 - If the task in microtask Queue keeps creating new tasks in the queue, element in callback queue never gets chance to be run. This is called **starvation**
 
+### Some Important Questions 
 
+1. **When does the event loop actually start ? -** Event loop, as the name suggests, is a single-thread, loop that is *almost infinite*. It's always running and doing its job.
 
+2. **Are only asynchronous web api callbacks are registered in web api environment? -** YES, the synchronous callback functions like what we pass inside map, filter and reduce aren't registered in the Web API environment. It's just those async callback functions which go through all this.
 
+3. **Does the web API environment stores only the callback function and pushes the same callback to queue/microtask queue? -** Yes, the callback functions are stored, and a reference is scheduled in the queues. Moreover, in the case of event listeners(for example click handlers), the original callbacks stay in the web API environment forever, that's why it's adviced to explicitly remove the listeners when not in use so that the garbage collector does its job.
 
-
-
-
-
+4.**How does it matter if we delay for setTimeout would be 0ms. Then callback will move to queue without any wait ? -** No, there are trust issues with setTimeout() 😅. The callback function needs to wait until the Call Stack is empty. So the 0 ms callback might have to wait for 100ms also if the stack is busy.
