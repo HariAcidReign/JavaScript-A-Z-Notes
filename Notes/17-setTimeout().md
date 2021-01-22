@@ -34,5 +34,25 @@ But JS waits for none. Goes to next line
 
 - This raises a question. *Why not add more call stacks and make it multithreaded?* 
 - JS is a synch single threaded language. And thats its beauty. With just 1 thread it runs all pieces of code there. It becomes kind of an interpreter lang,
-and runs code very fast inside browser (no need to wait for code to be compiled) 
+and runs code very fast inside browser (no need to wait for code to be compiled) (JIT - Just in time compilation). And there are still ways to do async operations as well. 
 
+### Now what if the timeout = 0sec
+```
+console.log("Start");
+
+setTimeout(function cb() {
+  console.log("Callback");
+ }, 0);
+ 
+ console.log("End");
+ 
+```
+- Even though timer = 0s, the cb() has to go through the queue. Registers calback in webapi's env , moves to callback queue, and execute once callstack is empty
+
+> Start
+
+> End
+
+> Callback
+
+- This method of putting timer = 0, can be used to defer a less imp fun by a little so the more important fun (here printing "End") can take place 
