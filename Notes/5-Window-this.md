@@ -4,7 +4,7 @@
 
 - Shortest JS program is nothing but an Empty JS file
 - Even for this program, JS engine does a lot behind the scenes
-- It creates the GEC, the "window" and the *this*variable
+- It creates the GEC, the "window" and the *this* variable
 - Window is a big global object that has a lot of functions and variables. All of these can be accessed from anywhere in the program
 - *this* points to *window*
 > this === window -> true (at global level)
