@@ -43,6 +43,7 @@ function a() {
 
 - This is the intuition behind **scope**
 - Scope is directly dependent on the lexical environment
+- "Scope" means where i can accessible a specific variable or function in the code
 - **Lexical Environment** : local memory + lexical env of its parent
 - Whenever an EC is created, a Lexical environment(LE) is also created and is referenced in the local EC(in memory space)
 - Lexical means hierarchy. In the DJ KHALED (xD) code, function c is lexically inside function a. 
