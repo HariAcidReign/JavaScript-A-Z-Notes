@@ -81,3 +81,4 @@ function a() {
  Like this if more closures formed, it becomes an issue. To tacke this, JS engines like v8 and Chrome have smart garbage collection mechanisms.
  Say we have var x = 0, z = 10 inabove code. When console log happens, x is printed as 0 but z is removed automatically.   
 
+```
