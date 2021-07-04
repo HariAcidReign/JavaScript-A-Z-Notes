@@ -17,5 +17,5 @@ Namaste 🙏 JavaScript course by the legendary Akshay Saini
 
 ### [Original Post](https://www.linkedin.com/posts/jayanta-kumar-roy-ba78a510a_javascript-coding-programming-activity-6815286103545921536-uzez) 
 
-<img src = "https://user-images.githubusercontent.com/58134096/123659009-defbec00-d84f-11eb-91a9-4ea5c7dbc868.png" width = "800" height = "500" />
+<img src = "https://user-images.githubusercontent.com/58134096/124376148-2b698080-dcc3-11eb-8cde-93973e7236f2.png" width = "600" height = "500" />
 
