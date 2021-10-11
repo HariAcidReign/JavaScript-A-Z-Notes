@@ -58,7 +58,7 @@ Output:
 >  Error: x is not defined   // note that not defined here and "undefined" in sample 2 are totally different.
 
 - Not defined: We have not initialised the value for variable anywhere in the entire code and in memory space. 
-- Undefined: 
+- Undefined: It is a placeholder that is assigned to a variable by the Javascript Engine until the variable is assigned with some other value.
 
 __Hoisting__ is a concept which enables us to extract values of variables and functions even before initialising/assigning value without getting *error*
 
