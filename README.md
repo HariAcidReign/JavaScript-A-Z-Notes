@@ -1,5 +1,12 @@
 # JavaScript-A-Z-Notes
-This is everything you need to know about the lanuguage of the future, Javascript!
+
+<p align="center">
+  
+![JavaScript-A-Z-Notes](https://socialify.git.ci/HariAcidReign/JavaScript-A-Z-Notes/image?description=1&font=Raleway&forks=1&logo=https%3A%2F%2Fwww.workinggears.com%2Fimages%2Fservices%2Fjs-ts.jpg&owner=1&stargazers=1&theme=Dark)
+
+</p>
+
+<p align = "center">  <strong>This is everything you need to know about the lanuguage of the future, Javascript! Open for Hacktoberfest ✨ </strong> </p>
 
 ## 🎯 Purpose
 This is my attempt at sharing JS knowledge with everyone, even those who might not have the time to go through all the videos. Also, I will use this repo for quick reference to JS concepts when necessary. I made the mistake of writing notes on pen and paper while doing the Machine Learning course by AndrewNG and now its collecting 🕸️. Figured this would be a better way of documenting my journey 🔥
