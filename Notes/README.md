@@ -160,7 +160,7 @@ function getName(){
 Output:
 >  Namaste JavaScript
 
->  undefined
+>  ReferenceError: x is not defined
 
 >  f getName(){
       console.log("Namaste JavaScript);
