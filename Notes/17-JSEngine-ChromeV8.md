@@ -15,7 +15,7 @@ to compile JS code.
 Interpreter : Takes code and executes line by line. Has no idea what will happen in next line. Very fast.
 Compiler : Code is compiled and an optimized version of same code is formed, and then executed. More efficient
 
-- Code inside JSE passes through 3 steps : **Parsing, Compilation and Execution**
+- Code inside JRE passes through 3 steps : **Parsing, Compilation and Execution**
 
 1. **Parsing** - Code is broken down into tokens. In "let a = 7" -> let, a, =, 7 are all tokens. Also we have a **syntax parser** that takes code and converts it
 into an **AST (Abstract Syntax Tree)** which is a JSON with all key values like type, start, end, body etc (looks like package.json but for a line of code in JS. Kinda 
